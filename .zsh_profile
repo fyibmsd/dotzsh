@@ -7,7 +7,7 @@ plugins=(zsh-autosuggestions)
 # config {
 
 prompt_context () {
-    prompt_segment black default $HOST
+    prompt_segment black default '['$HOST']'
 }
 
 # }
