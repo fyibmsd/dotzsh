@@ -109,11 +109,11 @@ function drmi() {
 }
 
 # Java
-export JAVA_HOME=/usr/local/jdk
+export JAVA_HOME=/home/work/services/jdk
 export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 
-export FLUME_HOME=/usr/local/flume
-export HADOOP_HOME=/usr/local/hadoop
+export FLUME_HOME=/home/work/services/flume
+export HADOOP_HOME=/home/work/services/hadoop
 
 # Golang
 export GOROOT=/usr/lib/go
@@ -129,7 +129,6 @@ export EDITOR="/usr/local/bin/vim"
 export PYENV_ROOT="$HOME/.pyenv"
 
 export COMPOSER_ROOT="$HOME/.config/composer"
-
 
 export PATH=$HADOOP_HOME/bin:$HADOOP_HOME/sbin:$PYENV_ROOT/shims:$PYENV_ROOT/bin:$COMPOSER_ROOT/vendor/bin:$PATH:$JAVA_HOME/bin:$GOPATH/bin:$HADOOP_HOME/bin:$FLUME_HOME/bin:$GOROOT/bin
 
