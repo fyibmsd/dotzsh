@@ -1,6 +1,6 @@
 # zsh plugins
-source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /home/vagrant/services/dotfiles/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /home/vagrant/services/dotfiles/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 plugins=(zsh-autosuggestions)
 
@@ -109,7 +109,7 @@ function drmi() {
 }
 
 # Java
-export JAVA_HOME=/usr/lib/jvm/default-java/
+export JAVA_HOME=/home/vagrant/services/jdk
 export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 
 export FLUME_HOME=/usr/local/flume
@@ -144,4 +144,4 @@ export LESS_TERMCAP_se=$'\E[0m'
 export LESS_TERMCAP_so=$'\E[01;44;33m'
 export LESS_TERMCAP_ue=$'\E[0m'
 export LESS_TERMCAP_us=$'\E[01;32m'
-source ~/.zsh/.zsh_local
+source /home/vagrant/services/dotfiles/.zsh/.zsh_local
