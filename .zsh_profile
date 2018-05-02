@@ -112,8 +112,8 @@ function drmi() {
 export JAVA_HOME=/home/vagrant/services/jdk
 export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 
-export FLUME_HOME=/usr/local/flume
-export HADOOP_HOME=/usr/local/hadoop
+export FLUME_HOME=/home/vagrant/services/flume
+export HADOOP_HOME=/home/vagrant/services/hadoop
 
 # Golang
 export GOROOT=/usr/lib/go
