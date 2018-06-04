@@ -13,6 +13,7 @@ prompt_context () {
 # }
 
 # alias{
+alias os="curl -sL https://raw.githubusercontent.com/fyibmsd/server-scripts/master/os.sh | bash -"
 alias ll="ls -la"
 alias vi=vim
 
