@@ -6,7 +6,7 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 # check os release
 os=$(curl -sL https://raw.githubusercontent.com/fyibmsd/server-scripts/master/os.sh | bash -)
 # install plugins
-git clone --depth=1 -b $os https://github.com/fyibmsd/dotzsh.git ~/.zsh
+git clone --depth=1 -b $os https://gitee.com/fyibmsd/dotzsh ~/.zsh
 
 cd ~/.zsh
 # local config
