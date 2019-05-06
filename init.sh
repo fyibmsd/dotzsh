@@ -16,5 +16,6 @@ git submodule init
 git submodule update
 echo "source ~/.zsh/.zsh_profile" >> ~/.zshrc
 sed -i "s/ZSH_THEME=\"robbyrussell\"/ZSH_THEME=\"agnoster\"/" ~/.zshrc
+sudo chsh -s /bin/zsh `whoami`
 zsh
 
