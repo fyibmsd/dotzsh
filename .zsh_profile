@@ -138,8 +138,8 @@ export JAVA_HOME=/usr/local/openjdk8
 export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 
 # Golang
-export GOROOT=/usr/local/opt/go/libexec
-export GOPATH=/Users/fyibmsd/code/go
+export GOROOT=/usr/local/go
+export GOPATH=/home/work/code/go
 export PHP=$HOME/code/php
 export PTOOLSPATH=$HOME/code/php/library/vendor/phalcon/devtools
 
