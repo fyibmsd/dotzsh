@@ -1,4 +1,12 @@
 #!/usr/bin/env bash
+
+case "$OSTYPE" in
+  darwin*)  BRANCH=macos ;;
+  linux*)   BRANCH=ubuntu ;;
+esac
+
+set -x
+
 # clear all
 rm -rf ~/.zsh ~/.oh-my-zsh ~/.zshrc
 # install oh-my-zsh
